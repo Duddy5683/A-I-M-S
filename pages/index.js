@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/buildspace-logo.png';
 import aimsLogo from '../assets/aims-logo.png';
 
 const Home = () => {
