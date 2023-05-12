@@ -34,22 +34,22 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>N.U.M.B.O.T | buildspace</title>
+        <title>A  I  M  S | buildspace</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>"Solve Math Problems with Ease: Introducing NUMBOT, Your Numerical Understanding and Mathematics Bot"</h1>
+            <h1>"AIMS: Revolutionizing Mathematics with AI-Powered Problem Solving"</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Maximize Your Math Potential with NUMBOT's Expertise</h2>
+            <h2>"Unlocking the Power of AI for Seamless Math Solutions and Enhanced Learning"</h2>
           </div>
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="Hello I am N.U.M.B.O.T, lets create your dream"
+            placeholder="Hello I am A  I  M  S, What problem shall we solve"
             value={userInput}
             onChange={onUserChangedText}
           />
