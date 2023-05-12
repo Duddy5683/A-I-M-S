@@ -39,10 +39,10 @@ const callGenerateEndpoint = async () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>"AIMS: Revolutionizing Mathematics with AI-Powered Problem Solving"</h1>
+            <h1>AIMS: Revolutionizing Mathematics with AI-Powered Problem Solving</h1>
           </div>
           <div className="header-subtitle">
-            <h2>"Unlocking the Power of AI for Seamless Math Solutions and Enhanced Learning"</h2>
+            <h2>Unlocking the Power of AI for Seamless Math Solutions and Enhanced Learning</h2>
           </div>
         </div>
         {/* Add this code here*/}
