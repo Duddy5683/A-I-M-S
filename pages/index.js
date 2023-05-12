@@ -54,7 +54,7 @@ const callGenerateEndpoint = async () => {
             value={userInput}
             onChange={onUserChangedText}
           />
-          {/* Added Logo image here */.}
+          {/* Added Logo image here */}
           <div classname="logo-container">
             <image src={yourLogo} alt="Your logo" />
           </div>
@@ -85,7 +85,8 @@ const callGenerateEndpoint = async () => {
         </div>
       </div>
       <div className="badge-container grow">
-        <ahref="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer">
+        <a
+        href="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer">
           <div className="badge">
             <Image src={aimsLogo} alt="Your logo" />
             <p>build with buildspace</p>
