@@ -55,7 +55,7 @@ const callGenerateEndpoint = async () => {
           />
           {/* Added Logo image here */}
           <div classname="logo-container">
-            <image src={yourLogo} alt="Your logo" />
+            <image src={aimsLogo} alt="Your logo" />
           </div>
           {/* new code i added here */}
           <div className="prompt-buttons">
