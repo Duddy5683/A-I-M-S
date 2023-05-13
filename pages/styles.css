@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Manrope', sans-serif;
 }
+
 .logo-container{
     width: 300px;
     height: 300px;
@@ -135,6 +136,7 @@ textarea {
 
 
 .prompt-buttons {
+    box-shadow: 15px 15px 12px black;
     display: flex;
     place-content: center;
     align-items: center;
@@ -160,6 +162,7 @@ textarea {
 
 .key-stroke p {
     color: rgba(255, 255, 255, 0.75);
+    text-shadow: 15px 15px 12px purple;
     flex: 0 0 auto;
     height: auto;
     position: relative;
