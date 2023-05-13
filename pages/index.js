@@ -49,7 +49,7 @@ const callGenerateEndpoint = async () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="Hello I am A  I  M  S, What problem shall we solve"
+            placeholder="Hello I am  A  I  M  S, What problem shall we solve"
             value={userInput}
             onChange={onUserChangedText}
           />
@@ -87,7 +87,7 @@ const callGenerateEndpoint = async () => {
         <a
         href="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={aimsLogo} alt="Your logo" />
+            <Image src={aimsLogo} class="balls" alt="Your logo" />
             <p>build with buildspace</p>
           </div>
         </a>
