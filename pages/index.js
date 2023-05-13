@@ -45,6 +45,9 @@ const callGenerateEndpoint = async () => {
             <h2>Unlocking the Power of AI for Seamless Math Solutions and Enhanced Learning</h2>
           </div>
         </div>
+        <div classname="logo-container">
+            <Image src={aimsLogo} alt="Your logo" />
+        </div>
         {/* Add this code here*/}
         <div className="prompt-container">
           <textarea
@@ -54,9 +57,7 @@ const callGenerateEndpoint = async () => {
             onChange={onUserChangedText}
           />
           {/* Added Logo image here */}
-          <div classname="logo-container">
-            <Image src={aimsLogo} alt="Your logo" />
-          </div>
+         
           {/* new code i added here */}
           <div className="prompt-buttons">
             <a
