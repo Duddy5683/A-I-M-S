@@ -34,12 +34,12 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>A  I  M  S | buildspace</title>
+        <title>A-I-M-S | buildspace</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>AIMS: Revolutionizing Mathematics with AI-Powered Problem Solving</h1>
+            <h1>A-I-M-S: Revolutionizing Mathematics with AI-Powered Problem Solving</h1>
           </div>
           <div className="header-subtitle">
             <h2>Unlocking the Power of AI for Seamless Math Solutions and Enhanced Learning</h2>
@@ -49,13 +49,13 @@ const callGenerateEndpoint = async () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="Hello I am  A  I  M  S, What problem shall we solve"
+            placeholder="Hello I am  A-I-M-S, What problem shall we solve"
             value={userInput}
             onChange={onUserChangedText}
           />
           {/* Added Logo image here */}
           <div classname="logo-container">
-            <image src={aimsLogo} alt="Your logo" />
+            <Image src={aimsLogo} alt="Your logo" />
           </div>
           {/* new code i added here */}
           <div className="prompt-buttons">
